@@ -3,7 +3,7 @@
 This project implements **Species Distribution Modeling (SDM)** using a **Random Forest classifier** within **Google Earth Engine (GEE)**.  
 The workflow was applied to **8 different species**, generating habitat suitability maps that were exported as map tiles for web visualization.
 
-Link to demo video and presentation - [Drive](https://drive.google.com/drive/folders/1dK6iCLvIHgW_5zDVBQkxj-a0u5I3lVJ2?usp=drive_link)
+Link to presentation and data generated - [Drive](https://drive.google.com/drive/folders/1dK6iCLvIHgW_5zDVBQkxj-a0u5I3lVJ2?usp=drive_link)
 
 ## Table of Contents
 - [Species Modeled](#species-modeled)
@@ -122,7 +122,7 @@ When selecting the **plant option**, you will have access to different species. 
 ---
 
 ## Data Sources
-EcoMapper integrates multiple environmental data sources:
+EcoMapper also integrates multiple environmental data sources:
 - **Water Quality:** Simulated water quality data across Indian geographical boundaries.  
 - **Air Quality:** Environmental air quality data based on OpenAQ API response formats.  
 - **Vegetation:** NDVI-like vegetation indices with species-specific overlay capabilities.  
@@ -140,7 +140,7 @@ EcoMapper integrates multiple environmental data sources:
 
 ## Tech Stack
 - **Google Earth Engine (GEE)** – data processing & Random Forest modeling  
-- **Python** – preprocessing (`conversion.py`) and evaluation scripts  
+- **Python** – preprocessing and evaluation scripts  
 - **Leaflet.js** – web-based map visualization  
 - **GeoTIFF → tiles** – raster handling for fast rendering  
 - **Node.js 18+** – backend setup  
@@ -182,12 +182,12 @@ npm run mock-server    # Start mock backend server
 This project is released under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 ## Contact
-Project Lead: Dhruthi
-Email: aithaldhruthi@gmail.com
-Institution: R V College of Engineering
+Project Lead: Dhruthi   
+Email: aithaldhruthi@gmail.com  
+Institution: R V College of Engineering  
 
 ## Credits & Acknowledgments
-- **Concept & Development:** Team Iris  
+- **Concept & Development:** Team Iris (Nishta N Shetty, Shravani B, Sanjana Appa Kadpodkar) 
 - **Data Sources:** GBIF, WorldClim, SoilGrids, MODIS, SRTM, FAO GAUL 
 - **Spatial Preprocessing & Modeling:** Google Earth Engine, QGIS  
 - **Platform & Visualization:** React.js with Leaflet.js, Google Earth Engine 
