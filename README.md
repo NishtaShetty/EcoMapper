@@ -164,8 +164,7 @@ EcoMapper integrates multiple environmental data sources:
 ### Installation
 ```bash
 # Clone repo
-git clone http://gitlab.indiaobservatory.org.in/code4nature-2025/iris.git
-cd iris
+git clone https://github.com/dhruthiaithal/EcoMapper
 
 # Install dependencies
 npm install
