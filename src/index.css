@@ -1,0 +1,19 @@
+/* Leaflet CSS */
+@import url('leaflet/dist/leaflet.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+/* Fallback colors in case Tailwind isn't applied correctly during dev
+	 These ensure the app is visible (light background + readable text). */
+body {
+	background-color: #f8fafc; /* light gray */
+	color: #111827; /* dark text */
+	min-height: 100vh;
+}
+
+/* Make sure root occupies full viewport so App flex layout works */
+#root { min-height: 100vh; }
