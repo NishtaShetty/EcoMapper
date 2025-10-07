@@ -179,7 +179,8 @@ npm run mock-server    # Start mock backend server
 --- 
 
 ## License
-This project is released under the [MIT License](https://choosealicense.com/licenses/mit/)
+This project is licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).  
+You may view the full license here: [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Contact
 Project Lead: Dhruthi   
