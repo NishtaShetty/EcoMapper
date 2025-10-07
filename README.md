@@ -192,4 +192,4 @@ Institution: R V College of Engineering
 - **Data Sources:** GBIF, WorldClim, SoilGrids, MODIS, SRTM, FAO GAUL 
 - **Spatial Preprocessing & Modeling:** Google Earth Engine, QGIS  
 - **Platform & Visualization:** React.js with Leaflet.js, Google Earth Engine 
-- **Community & Support:** India Observatory community, mentors and reviewers  
+- **Community & Support:** Foundation for Ecological Security, mentors and reviewers  
