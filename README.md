@@ -65,7 +65,7 @@ The following environmental raster layers were used as predictors:
 
 ### 6. Export & Visualization
 - Final suitability maps for all 8 species were exported as **GeoTIFFs**.  
-- GeoTIFFs were tiled and integrated into the **Leaflet web application** for interactive exploration.  
+- GeoTIFFs were tiled using qgis and integrated into the **Leaflet web application** for interactive exploration.  
 - The website allows users to toggle species layers and view predicted suitability areas.
 
 ---
